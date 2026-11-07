@@ -1,0 +1,177 @@
+{
+  "declaration_area_rows": 1447,
+  "distinct_disasters": 60,
+  "distinct_declaration_strings": 60,
+  "counting_note": "1,447 declaration-area rows describe 60 distinct disasters. Each row is one designated place on a declaration, not a separate disaster. The count is distinct disasterNumber.",
+  "quarantine": {
+    "declarations": 0,
+    "housing": 0,
+    "declaration_reasons": {},
+    "housing_reasons": {}
+  },
+  "housing_rows": 22715,
+  "housing_unmatched_labels": [
+    {
+      "county_name_key": "TAMPARESERVATION",
+      "county_label": "Tampa Reservation",
+      "source_rows": 749,
+      "owner_valid_registrations": 3168
+    },
+    {
+      "county_name_key": "MICCOSUKEETRIBEOFINDIANSOFFLORIDA",
+      "county_label": "Miccosukee Tribe of Indians of Florida",
+      "source_rows": 572,
+      "owner_valid_registrations": 1110
+    },
+    {
+      "county_name_key": "HOLLYWOODINDIANRESERVATION",
+      "county_label": "Hollywood Indian Reservation",
+      "source_rows": 209,
+      "owner_valid_registrations": 293
+    },
+    {
+      "county_name_key": "IMMOKALEEINDIANRESERVATION",
+      "county_label": "Immokalee Indian Reservation",
+      "source_rows": 193,
+      "owner_valid_registrations": 349
+    },
+    {
+      "county_name_key": "FORTPIERCEINDIANRESERVATION",
+      "county_label": "Fort Pierce Indian Reservation",
+      "source_rows": 181,
+      "owner_valid_registrations": 259
+    },
+    {
+      "county_name_key": "BIGCYPRESSINDIANRESERVATION",
+      "county_label": "Big Cypress Indian Reservation",
+      "source_rows": 155,
+      "owner_valid_registrations": 220
+    },
+    {
+      "county_name_key": "BRIGHTONINDIANRESERVATION",
+      "county_label": "Brighton Indian Reservation",
+      "source_rows": 143,
+      "owner_valid_registrations": 209
+    },
+    {
+      "county_name_key": "SORRENTOSHORES",
+      "county_label": "Sorrento Shores",
+      "source_rows": 1,
+      "owner_valid_registrations": 1
+    }
+  ],
+  "housing_unmatched_registrations": 5609,
+  "non_county_designation_rows": 44,
+  "rejected_links": [
+    {
+      "storm_id": "AL142024",
+      "disaster_number": 4844,
+      "declaration_title": "HURRICANE MILTON",
+      "reason": "Another DR for the same storm has more IA/IH-designated Florida counties"
+    },
+    {
+      "storm_id": "AL131999",
+      "disaster_number": 1306,
+      "declaration_title": "FL-HURRICANE IRENE-DR-REQ",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL081999",
+      "disaster_number": 1300,
+      "declaration_title": "HURRICANE FLOYD MAJOR DISASTER DECLARATIONS",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL051995",
+      "disaster_number": 1062,
+      "declaration_title": "HURRICANE ERIN",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL041992",
+      "disaster_number": 955,
+      "declaration_title": "HURRICANE ANDREW",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL061964",
+      "disaster_number": 176,
+      "declaration_title": "HURRICANE DORA",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL071998",
+      "disaster_number": 1249,
+      "declaration_title": "HURRICANE GEORGES",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL111979",
+      "disaster_number": 600,
+      "declaration_title": "HURRICANE FREDERIC",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL051998",
+      "disaster_number": 1241,
+      "declaration_title": "HURRICANE EARL",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL171995",
+      "disaster_number": 1069,
+      "declaration_title": "HURRICANE OPAL",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL131985",
+      "disaster_number": 756,
+      "declaration_title": "HURRICANE KATE",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL051985",
+      "disaster_number": 743,
+      "declaration_title": "HURRICANE ELENA",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL141968",
+      "disaster_number": 252,
+      "declaration_title": "HURRICANE GLADYS",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL031965",
+      "disaster_number": 209,
+      "declaration_title": "HURRICANE BETSY",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL051964",
+      "disaster_number": 175,
+      "declaration_title": "HURRICANE CLEO",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    },
+    {
+      "storm_id": "AL051960",
+      "disaster_number": 106,
+      "declaration_title": "HURRICANE DONNA",
+      "reason": "Incident begins before the April 1, 2000 Census, so there is no leakage-safe population vintage"
+    }
+  ],
+  "snapshot_ids": {
+    "declarations": "2026-11-07T19:35:24Z:f6caab75f90d",
+    "housing": "2026-11-07T19:35:24Z:0309e8c3e72c",
+    "hurdat2": "2026-11-07T19:35:24Z:75202780ce56",
+    "population": "2026-11-07T19:35:24Z",
+    "counties": "2026-11-07T19:35:24Z:32e7fefad4fe"
+  },
+  "snapshot_retrieved_at": {
+    "declarations": "2026-11-07T19:35:24Z",
+    "housing": "2026-11-07T19:35:24Z",
+    "hurdat2": "2026-11-07T19:35:24Z",
+    "population": "2026-11-07T19:35:24Z",
+    "counties": "2026-11-07T19:35:24Z"
+  }
+}

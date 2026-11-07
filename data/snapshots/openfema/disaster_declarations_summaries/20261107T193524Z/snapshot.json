@@ -1,0 +1,27 @@
+{
+  "source": "OpenFEMA",
+  "entity": "DisasterDeclarationsSummaries",
+  "source_url": "https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries",
+  "filter": "state eq 'FL' and incidentType eq 'Hurricane'",
+  "retrieved_at": "2026-11-07T19:35:24Z",
+  "page_size": 1000,
+  "record_count": 1447,
+  "reported_count": 1447,
+  "pages": [
+    {
+      "file": "page-00000.json",
+      "sha256": "f6caab75f90d29a783ee6dc89f491c12d37b2e2689fc369b91dfde23d6e3ae79",
+      "records": 1000,
+      "skip": 0,
+      "top": 1000
+    },
+    {
+      "file": "page-00001.json",
+      "sha256": "bcb6a600fb6b67a426d099858c9110a66ce37fdc66bc02c926ca0a2835404fdc",
+      "records": 447,
+      "skip": 1000,
+      "top": 1000
+    }
+  ],
+  "natural_key_note": "OpenFEMA id is an API-assigned GUID and is not a StormLedger key. See stormledger.constants for the documented source-key fields."
+}
