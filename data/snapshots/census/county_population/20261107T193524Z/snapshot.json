@@ -1,0 +1,43 @@
+{
+  "source": "US Census Bureau population estimates program, Florida county extract",
+  "retrieved_at": "2026-11-07T19:35:24Z",
+  "note": "The snapshot stores the Florida county extract. The full national file is not committed; source_sha256 is the SHA-256 of the bytes downloaded from source_url.",
+  "vintages": [
+    {
+      "vintage_id": "census_2000",
+      "reference_date": "2000-04-01",
+      "source_url": "https://www2.census.gov/programs-surveys/popest/datasets/2000-2009/counties/totals/co-est2009-alldata.csv",
+      "source_column": "CENSUS2000POP",
+      "source_sha256": "e33e150ef30497085e1c287b994dfad6cf0b553bee1921916e55b0cf35174f26",
+      "source_bytes": 3678541,
+      "extract_file": "census_2000_fl.csv",
+      "extract_sha256": "987ea60580ecdc268ccd0170ac3b0a1fb725d449ef782998cf1b31bb747024e8",
+      "extract_filter": "SUMLEV == 050 and STATE == 12",
+      "rows": 67
+    },
+    {
+      "vintage_id": "census_2010",
+      "reference_date": "2010-04-01",
+      "source_url": "https://www2.census.gov/programs-surveys/popest/datasets/2010-2020/counties/totals/co-est2020-alldata.csv",
+      "source_column": "CENSUS2010POP",
+      "source_sha256": "983708e1b68c8e7c4ecbef4d45137bea34ee286abe07662ccc0d6dfc6411fe83",
+      "source_bytes": 4012355,
+      "extract_file": "census_2010_fl.csv",
+      "extract_sha256": "f88104f47cae6e09fc200fe316d0158522950a9d354e07c0db2828abe03b8ebe",
+      "extract_filter": "SUMLEV == 050 and STATE == 12",
+      "rows": 67
+    },
+    {
+      "vintage_id": "census_2020_estimates_base",
+      "reference_date": "2020-04-01",
+      "source_url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv",
+      "source_column": "ESTIMATESBASE2020",
+      "source_sha256": "4f5a499d851e2cb48fd7a5405e5a9235453a8a66933657aacd10df0e264f35d5",
+      "source_bytes": 2071735,
+      "extract_file": "census_2020_fl.csv",
+      "extract_sha256": "9eb4e7a9b2f40032c8ddc13266963b8ca3cf82549353b3ff1e6e44f9263c13c2",
+      "extract_filter": "SUMLEV == 050 and STATE == 12",
+      "rows": 67
+    }
+  ]
+}

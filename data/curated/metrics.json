@@ -1,0 +1,203 @@
+{
+  "research_demonstration": true,
+  "not_emergency_guidance": true,
+  "banner": "Research demonstration. Not emergency guidance. Not a forecast and not for decisions about safety, insurance, or assistance.",
+  "model_version": "stormledger-0.1.0",
+  "methodology_id": "fl-owner-valid-registrations-v1",
+  "target": {
+    "name": "owner_valid_registrations",
+    "unit": "owner valid registrations",
+    "dataset": "HousingAssistanceOwners",
+    "field": "validRegistrations"
+  },
+  "published_model": "linear",
+  "selection_rule": "Publish the boosted tree only when its calibration MAE is at most 0.90 times the linear baseline MAE. Otherwise publish the linear model. The test set is not used for selection.",
+  "selection_margin": 0.9,
+  "splits": {
+    "train": "incident_begin < 2018-01-01",
+    "calibration": "2018-01-01 <= incident_begin < 2022-01-01",
+    "test": "incident_begin >= 2022-01-01"
+  },
+  "n_rows": {
+    "train": 248,
+    "calibration": 17,
+    "test": 115
+  },
+  "calibration_mae": {
+    "linear": 2057.4171,
+    "boosted": 2196.9279
+  },
+  "test": {
+    "n_rows": 115,
+    "n_storms": 5,
+    "storms": [
+      "AL092022",
+      "AL092024",
+      "AL102023",
+      "AL142024",
+      "AL172022"
+    ],
+    "mae_linear": 8181.7896,
+    "mae_boosted": 7419.1442,
+    "medae_linear": 1553.1872,
+    "medae_boosted": 1522.4007,
+    "mae_log1p_linear": 0.924,
+    "mae_log1p_boosted": 0.8986,
+    "mae_published": 8181.7896,
+    "medae_published": 1553.1872,
+    "interval": {
+      "method": "split_conformal_log1p_absolute_residual",
+      "nominal_coverage": 0.8,
+      "calibration_n": 17,
+      "log_radius": 0.896709,
+      "empirical_coverage": 0.5652,
+      "mean_width": 8033.0311
+    }
+  },
+  "permutation_importance_calibration": [
+    {
+      "feature": "min_pressure_hpa",
+      "mean_mae_increase": 14576.970776080016
+    },
+    {
+      "feature": "log_population",
+      "mean_mae_increase": 4577.292804610086
+    },
+    {
+      "feature": "closest_wind_kt",
+      "mean_mae_increase": 3191.693993218215
+    },
+    {
+      "feature": "inside_64kt",
+      "mean_mae_increase": 372.9448467154177
+    },
+    {
+      "feature": "min_distance_km",
+      "mean_mae_increase": 345.29843987776945
+    },
+    {
+      "feature": "inside_50kt",
+      "mean_mae_increase": 328.91843192695126
+    },
+    {
+      "feature": "peak_wind_within_250km",
+      "mean_mae_increase": 165.94526753524337
+    },
+    {
+      "feature": "pressure_missing",
+      "mean_mae_increase": 0.0
+    },
+    {
+      "feature": "inside_34kt",
+      "mean_mae_increase": 0.0
+    },
+    {
+      "feature": "radii_missing",
+      "mean_mae_increase": 0.0
+    },
+    {
+      "feature": "hours_within_150km",
+      "mean_mae_increase": -5.276529234526095
+    }
+  ],
+  "standardized_linear_coefficients": [
+    {
+      "feature": "min_distance_km",
+      "coefficient_on_log1p": -0.4242
+    },
+    {
+      "feature": "closest_wind_kt",
+      "coefficient_on_log1p": -0.6589
+    },
+    {
+      "feature": "peak_wind_within_250km",
+      "coefficient_on_log1p": -0.1492
+    },
+    {
+      "feature": "min_pressure_hpa",
+      "coefficient_on_log1p": -1.0252
+    },
+    {
+      "feature": "pressure_missing",
+      "coefficient_on_log1p": -0.0
+    },
+    {
+      "feature": "hours_within_150km",
+      "coefficient_on_log1p": 0.0384
+    },
+    {
+      "feature": "inside_34kt",
+      "coefficient_on_log1p": 0.3454
+    },
+    {
+      "feature": "inside_50kt",
+      "coefficient_on_log1p": 0.3295
+    },
+    {
+      "feature": "inside_64kt",
+      "coefficient_on_log1p": 0.213
+    },
+    {
+      "feature": "radii_missing",
+      "coefficient_on_log1p": 0.3873
+    },
+    {
+      "feature": "log_population",
+      "coefficient_on_log1p": 1.1619
+    }
+  ],
+  "leakage_checks": [
+    {
+      "name": "time_separation",
+      "passed": true,
+      "detail": {
+        "train_max": "2017-09-04 00:00:00+00:00",
+        "calibration_min": "2018-10-07 00:00:00+00:00",
+        "calibration_max": "2020-09-14 00:00:00+00:00",
+        "test_min": "2022-09-23 00:00:00+00:00"
+      }
+    },
+    {
+      "name": "storms_do_not_cross_splits",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "features_exclude_target_and_identifiers",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "population_reference_precedes_incident",
+      "passed": true,
+      "detail": "Census reference date is strictly before incident begin for every storm-county row"
+    },
+    {
+      "name": "irma_uses_2010_census",
+      "passed": true,
+      "detail": [
+        "census_2010"
+      ]
+    },
+    {
+      "name": "ian_uses_2020_census",
+      "passed": true,
+      "detail": [
+        "census_2020_estimates_base"
+      ]
+    }
+  ],
+  "feature_list": [
+    "min_distance_km",
+    "closest_wind_kt",
+    "peak_wind_within_250km",
+    "min_pressure_hpa",
+    "pressure_missing",
+    "hours_within_150km",
+    "inside_34kt",
+    "inside_50kt",
+    "inside_64kt",
+    "radii_missing",
+    "log_population"
+  ]
+}

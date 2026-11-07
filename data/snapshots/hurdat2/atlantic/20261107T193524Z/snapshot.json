@@ -1,0 +1,9 @@
+{
+  "source": "NOAA NHC HURDAT2 Atlantic",
+  "source_url": "https://www.nhc.noaa.gov/data/hurdat/hurdat2-1851-2025-092326.txt",
+  "retrieved_at": "2026-11-07T19:35:24Z",
+  "file": "hurdat2.txt",
+  "sha256": "75202780ce56c8458f16fbef5fb8a026b99b00878dbb95c458211b3e6ef125b4",
+  "bytes": 7071568,
+  "natural_key": "storm_id|YYYYMMDD|HHMM|record_identifier"
+}

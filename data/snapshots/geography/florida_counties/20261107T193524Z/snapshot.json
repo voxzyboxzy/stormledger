@@ -1,0 +1,11 @@
+{
+  "source": "plotly datasets geojson-counties-fips (Census GEOID county polygons)",
+  "source_url": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json",
+  "retrieved_at": "2026-11-07T19:35:24Z",
+  "source_sha256": "e540149b7525e71ee6b6cab6dea2a95205f11e0c3e7374d27a7c9c47ea96e8c0",
+  "source_bytes": 3216816,
+  "extract_file": "fl_counties.geojson",
+  "extract_sha256": "32e7fefad4fe8d1473280a3cb2c074f97939191ba558bc0ac9643d823ada317d",
+  "extract_filter": "feature id startswith 12",
+  "features": 67
+}

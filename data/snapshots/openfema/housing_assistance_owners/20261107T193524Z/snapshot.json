@@ -1,0 +1,174 @@
+{
+  "source": "OpenFEMA",
+  "entity": "HousingAssistanceOwners",
+  "source_url": "https://www.fema.gov/api/open/v2/HousingAssistanceOwners",
+  "filter": "state eq 'FL'",
+  "retrieved_at": "2026-11-07T19:35:24Z",
+  "page_size": 1000,
+  "record_count": 22715,
+  "reported_count": 22715,
+  "pages": [
+    {
+      "file": "page-00000.json",
+      "sha256": "0309e8c3e72cd2e6ce4d77edc6c4af0791068b6a27c5e3655fb22e4da097dd22",
+      "records": 1000,
+      "skip": 0,
+      "top": 1000
+    },
+    {
+      "file": "page-00001.json",
+      "sha256": "07c2000d025236d4e8b5df50bf7309e96ae210bb86db7fc9c33b0284ae1ed1d9",
+      "records": 1000,
+      "skip": 1000,
+      "top": 1000
+    },
+    {
+      "file": "page-00002.json",
+      "sha256": "14f26f6279b4c362207617c60b52f6ddc312cda8bd61546413bd3d943ba1c7f3",
+      "records": 1000,
+      "skip": 2000,
+      "top": 1000
+    },
+    {
+      "file": "page-00003.json",
+      "sha256": "b78d98d77833237d057e035821f134847683fe0637afb3f58c270f11a6f3d54d",
+      "records": 1000,
+      "skip": 3000,
+      "top": 1000
+    },
+    {
+      "file": "page-00004.json",
+      "sha256": "4c7749382162dc417fa8d068dfe39cd0b50c0becc561296a7c129fa9e7e5b9fb",
+      "records": 1000,
+      "skip": 4000,
+      "top": 1000
+    },
+    {
+      "file": "page-00005.json",
+      "sha256": "400b0c1cc2de257b462c19cf41744a94a2a02d8a3ccd096d49731cbb8b33f269",
+      "records": 1000,
+      "skip": 5000,
+      "top": 1000
+    },
+    {
+      "file": "page-00006.json",
+      "sha256": "d79657151ea8087e45fb8e2b2c00b6315d453e7b56bba8a4a2203fc2074890c4",
+      "records": 1000,
+      "skip": 6000,
+      "top": 1000
+    },
+    {
+      "file": "page-00007.json",
+      "sha256": "b65b145bbd2a5a3cfe8b168657036be4fcb23c478673378073e51c459805bea3",
+      "records": 1000,
+      "skip": 7000,
+      "top": 1000
+    },
+    {
+      "file": "page-00008.json",
+      "sha256": "b555822a57353f145ce7d687b6a125c0ed9492977cd02fa43f7030ce91cb75f1",
+      "records": 1000,
+      "skip": 8000,
+      "top": 1000
+    },
+    {
+      "file": "page-00009.json",
+      "sha256": "de59c0aa930a9d274917efed32acd28670f89b20df195d9f562d32be374cd130",
+      "records": 1000,
+      "skip": 9000,
+      "top": 1000
+    },
+    {
+      "file": "page-00010.json",
+      "sha256": "19a96b96eff8f918c1645a19eb0229f88c3e957d476427ba3719a88727dfea30",
+      "records": 1000,
+      "skip": 10000,
+      "top": 1000
+    },
+    {
+      "file": "page-00011.json",
+      "sha256": "4172d4ef449f1da44517887d7334e4e906fe11aeebd5bd71f3a2e6d03796acde",
+      "records": 1000,
+      "skip": 11000,
+      "top": 1000
+    },
+    {
+      "file": "page-00012.json",
+      "sha256": "39a1457840d8b83e064f0bc1c92213e22ad1db806e6586c419ca94c07d5d6c29",
+      "records": 1000,
+      "skip": 12000,
+      "top": 1000
+    },
+    {
+      "file": "page-00013.json",
+      "sha256": "ba81836c2b13fde420fbac3896c536d1a8d9ea12711c7cf3cdfe1d197ec01e1b",
+      "records": 1000,
+      "skip": 13000,
+      "top": 1000
+    },
+    {
+      "file": "page-00014.json",
+      "sha256": "67e41d722a48a9b7fef2b7d0c482dcda38cce98ebb608daa118694f25de45442",
+      "records": 1000,
+      "skip": 14000,
+      "top": 1000
+    },
+    {
+      "file": "page-00015.json",
+      "sha256": "5195751c0df25ed590881e0a939bfdef6377461dcb6f6fe29c5834dd6a267d9c",
+      "records": 1000,
+      "skip": 15000,
+      "top": 1000
+    },
+    {
+      "file": "page-00016.json",
+      "sha256": "4d0dfbfbbe8aba53ec8561c7dcf9e904d3705ba872d5e1224d4e4f1ef2805ac3",
+      "records": 1000,
+      "skip": 16000,
+      "top": 1000
+    },
+    {
+      "file": "page-00017.json",
+      "sha256": "7c0e46a41bedf828a2463e0dcc3103df78df2d6a61feaff89f60170870b0ad3a",
+      "records": 1000,
+      "skip": 17000,
+      "top": 1000
+    },
+    {
+      "file": "page-00018.json",
+      "sha256": "3c90ec15a5a4abed95761b9b9d82a2bdae3f80a6476af0b0a637614b207439d8",
+      "records": 1000,
+      "skip": 18000,
+      "top": 1000
+    },
+    {
+      "file": "page-00019.json",
+      "sha256": "2afe263ed108e52a44eb8c052f3586e5ceafcf1e5e25ecf17da2f5521d52af20",
+      "records": 1000,
+      "skip": 19000,
+      "top": 1000
+    },
+    {
+      "file": "page-00020.json",
+      "sha256": "2f6554a24aeeb19e41ef89f367d9378f0f703683e7748e418ad02e4d7362147c",
+      "records": 1000,
+      "skip": 20000,
+      "top": 1000
+    },
+    {
+      "file": "page-00021.json",
+      "sha256": "b8bbfd3d0479fc869387963a2b2cdb4c0e68a41547fee0ccc71a526d0ba1be13",
+      "records": 1000,
+      "skip": 21000,
+      "top": 1000
+    },
+    {
+      "file": "page-00022.json",
+      "sha256": "1a1ddfd2219deb9ba7d036a74f6627894963195008587fce2b6799109c78502f",
+      "records": 715,
+      "skip": 22000,
+      "top": 1000
+    }
+  ],
+  "natural_key_note": "OpenFEMA id is an API-assigned GUID and is not a StormLedger key. See stormledger.constants for the documented source-key fields."
+}
